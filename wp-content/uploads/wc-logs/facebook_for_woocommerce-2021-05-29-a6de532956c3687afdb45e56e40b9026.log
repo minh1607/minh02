@@ -1,0 +1,2 @@
+05-29-2021 @ 12:42:51 - There was an error trying sync products using the Catalog Batch API for job cc7befd64e27b08f6041e6377d48b8df: Cannot create the API instance because the access token is missing.
+05-29-2021 @ 12:59:15 - There was an error trying sync products using the Catalog Batch API for job 6613bba32daa72c0b742c2c1c681ceb5: Cannot create the API instance because the access token is missing.

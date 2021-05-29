@@ -1,0 +1,32 @@
+2021-05-28T17:12:22+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php:29
+Stack trace:
+#0 C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php(29): in_array('', '')
+#1 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(429): digi_store_Customize_Control_Multiple_Select->render_content()
+#2 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(416): WP_Customize_Control->render()
+#3 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(380): WP_Customize_Control->maybe_render()
+#4 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(318): WP_Customize_Control->get_content()
+#5 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(336): WP_Customize_Control->to_json()
+#6 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-manager.php(4969): WP_Customize_Control->json()
+#7 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->customize_pane_settings('')
+#8 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\minh02\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\minh02\wp-admin\customize.php(281): do_action('customize_contr...')
+#11 {main}
+  thrown in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php on line 29
+
+2021-05-28T17:28:40+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php:29
+Stack trace:
+#0 C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php(29): in_array('', '')
+#1 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(429): digi_store_Customize_Control_Multiple_Select->render_content()
+#2 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(416): WP_Customize_Control->render()
+#3 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(380): WP_Customize_Control->maybe_render()
+#4 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(318): WP_Customize_Control->get_content()
+#5 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(336): WP_Customize_Control->to_json()
+#6 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-manager.php(4969): WP_Customize_Control->json()
+#7 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->customize_pane_settings('')
+#8 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\minh02\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\minh02\wp-admin\customize.php(281): do_action('customize_contr...')
+#11 {main}
+  thrown in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php on line 29
+

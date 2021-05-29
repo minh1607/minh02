@@ -1,0 +1,66 @@
+2021-05-29T12:07:16+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php:29
+Stack trace:
+#0 C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php(29): in_array('', '')
+#1 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(429): digi_store_Customize_Control_Multiple_Select->render_content()
+#2 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(416): WP_Customize_Control->render()
+#3 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(380): WP_Customize_Control->maybe_render()
+#4 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(318): WP_Customize_Control->get_content()
+#5 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(336): WP_Customize_Control->to_json()
+#6 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-manager.php(4969): WP_Customize_Control->json()
+#7 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->customize_pane_settings('')
+#8 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\minh02\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\minh02\wp-admin\customize.php(281): do_action('customize_contr...')
+#11 {main}
+  thrown in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php on line 29
+
+2021-05-29T12:07:52+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php:29
+Stack trace:
+#0 C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php(29): in_array('', '')
+#1 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(429): digi_store_Customize_Control_Multiple_Select->render_content()
+#2 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(416): WP_Customize_Control->render()
+#3 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(380): WP_Customize_Control->maybe_render()
+#4 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(318): WP_Customize_Control->get_content()
+#5 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(336): WP_Customize_Control->to_json()
+#6 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-manager.php(4969): WP_Customize_Control->json()
+#7 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->customize_pane_settings('')
+#8 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\minh02\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\minh02\wp-admin\customize.php(281): do_action('customize_contr...')
+#11 {main}
+  thrown in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php on line 29
+
+2021-05-29T12:09:35+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php:29
+Stack trace:
+#0 C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php(29): in_array('', '')
+#1 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(429): digi_store_Customize_Control_Multiple_Select->render_content()
+#2 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(416): WP_Customize_Control->render()
+#3 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(380): WP_Customize_Control->maybe_render()
+#4 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(318): WP_Customize_Control->get_content()
+#5 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-control.php(336): WP_Customize_Control->to_json()
+#6 C:\xampp\htdocs\minh02\wp-includes\class-wp-customize-manager.php(4969): WP_Customize_Control->json()
+#7 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(292): WP_Customize_Manager->customize_pane_settings('')
+#8 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\minh02\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\minh02\wp-admin\customize.php(281): do_action('customize_contr...')
+#11 {main}
+  thrown in C:\xampp\htdocs\minh02\wp-content\themes\digi-store\inc\customizer\functions\customizer-control.php on line 29
+
+2021-05-29T12:44:34+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in C:\xampp\htdocs\minh02\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php:950
+Stack trace:
+#0 C:\xampp\htdocs\minh02\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php(527): WC_Admin_Post_Types->set_new_price(Object(WC_Product_Simple), 'sale')
+#1 C:\xampp\htdocs\minh02\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php(326): WC_Admin_Post_Types->bulk_edit_save(18, Object(WC_Product_Simple))
+#2 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(292): WC_Admin_Post_Types->bulk_and_quick_edit_save_post(18, Object(WP_Post))
+#3 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\minh02\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\minh02\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php(290): do_action('woocommerce_pro...', 18, Object(WP_Post))
+#6 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(294): WC_Admin_Post_Types->bulk_and_quick_edit_hook(18, Object(WP_Post))
+#7 C:\xampp\htdocs\minh02\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\minh02\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\minh02\wp-includes\post.php(4384): do_action('save_post', 18, Object(WP_Post), true)
+#10 C:\xampp\htdocs\minh02\wp-includes\post.php(4486): wp_insert_post(Array, false, true)
+#11 C:\xampp\htdocs\minh02\wp-admin\includes\post.php(639): wp_update_post(Array)
+#12 C:\xampp\htdocs\minh02\wp-admin\edit.php(182): bulk_edit_posts(Array)
+#13 {main}
+  thrown in C:\xampp\htdocs\minh02\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-post-types.php on line 950
+
